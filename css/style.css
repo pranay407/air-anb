@@ -1,0 +1,113 @@
+html{
+    height: 100%;
+    font-family: Verdana;
+    font-size: 12px;
+}
+body{
+    margin: 0px;
+    height: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.headerstyle{
+    background-color:#4ea29f;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.headercontent{
+    display: flex;
+    width: 600px;
+    align-items: center;
+}
+.bodystyle{
+    background:linear-gradient(#3bea9b,#ca98d1);
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.headerlinks{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.buttonStyle{
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    border:1px solid grey;
+}
+.homestay{
+    flex-basis: 70%;
+}
+.headerheight30{
+    height: 30px;
+}
+.headerrow{
+    font-size: 24px;
+    font-weight: bold;
+}
+.bodycontent{
+    width: 600px;
+}
+.height20{
+    height: 20px;
+}
+.spacerow{
+  font-size: 24px;
+  color: hotpink;
+}
+.spacecontent table{
+    width: 100%;
+}
+.spacecontent table td{
+    padding: 4px;
+    font-weight: bold;
+}
+.amenitiheader{
+    color: hotpink;
+    font-size: 24px;
+}
+.ameniticontent table{ 
+    width: 100%;
+}
+.ameniticontent table td{
+    padding: 4px;
+    font-weight: bold;
+}
+.infoheader{
+    color: hotpink;
+    font-size: 24px;
+}
+.infocontent{
+    font-weight: bold;
+}
+.ruleheader{
+    color: hotpink;
+    font-size: 24px;
+}
+.rulecontent{
+    font-weight: bold;
+}
+.rulebutton{
+    padding: 5px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    width: 200px;
+}
+.contactheader{
+    color: hotpink;
+    font-size: 24px;
+}
+.inputrow{
+    display: flex;
+    flex-direction: column;
+}
+.contactcontent{
+    font-weight: bold;
+}
